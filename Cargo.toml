@@ -1,7 +1,6 @@
 [package]
 name = "derive-deref-rs"
 description = "derive-deref-rs is a derive macro library used to easily defined the Derive and DrerfMut trait of the core library."
-categories = ["derive macros"]
 repository = "https://github.com/MathieuGravel/derive-deref-rs"
 license = "MIT"
 readme = "README.md"
