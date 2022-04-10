@@ -1,4 +1,4 @@
-use std::ops::{DerefMut, Deref};
+use std::ops::{Deref, DerefMut};
 
 use derive_deref_rs::Deref;
 
@@ -9,7 +9,7 @@ struct IntWrapper(i32);
 struct MyStruct {
     #[deref]
     string: String,
-    _something_else: ()
+    _something_else: (),
 }
 
 fn main() {
@@ -24,7 +24,7 @@ fn main() {
     {
         let mut my_struct = MyStruct {
             string: String::from("Hello World"),
-            _something_else: ()
+            _something_else: (),
         };
         println!("my_struct {}", my_struct.deref());
         let string = my_struct.deref_mut();

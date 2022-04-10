@@ -2,12 +2,6 @@
 
 Crate `derive-deref-rs` is a macro library used to easily defined the Derive and DrerfMut trait of the core library.
 
-## How to add this library to your project.
-*Cargo.toml:*
-```toml
-[dependency]
-derive-deref-rs = ... # Todo add where to find the crate.
-```
 ## How to use `#[derive(Deref)]`
 
 - Structure with only one field:
